@@ -1,0 +1,13 @@
+*swp
+*~
+*bak
+db/*.db
+*.lock
+*.db
+*pkg
+.bundle
+log*
+tags
+auto-save-list/*
+ac-comphist.dat
+*.elc
