@@ -11,3 +11,4 @@ tags
 auto-save-list/*
 ac-comphist.dat
 *.elc
+*.dat

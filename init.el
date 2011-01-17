@@ -88,3 +88,12 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  )
+
+;; Google talk integration with emacs.
+(add-to-list 'load-path  (concat emacs-home "emacs-jabber-0.8.0"))
+(require 'jabber-autoloads)
+(setq jabber-account-list '
+(("jaikeerthi@artha42.com"
+  (:network-server . "talk.google.com")
+  (:connection-type . ssl)
+)))
