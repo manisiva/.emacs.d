@@ -93,7 +93,7 @@
 (add-to-list 'load-path  (concat emacs-home "emacs-jabber-0.8.0"))
 (require 'jabber-autoloads)
 (setq jabber-account-list '
-(("jaikeerthi@artha42.com"
+(("manivannan.s@artha42.com"
   (:network-server . "talk.google.com")
   (:connection-type . ssl)
 )))
